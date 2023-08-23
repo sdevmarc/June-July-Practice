@@ -1,0 +1,44 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 9rem;
+}
+
+.section-1 {
+    background: bisque;
+    min-height: 100vh;
+}
+
+.section-2 {
+    background: cyan;
+    min-height: 100vh;
+}
+
+.section-3 {
+    background: bisque;
+    min-height: 100vh;
+}

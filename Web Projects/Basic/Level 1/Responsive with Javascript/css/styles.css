@@ -1,0 +1,181 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'fira sans', sans-serif;
+    outline: none;
+
+}
+
+:root {
+    --bg1-color: #0C1117;
+    --highlight-color: #2B61F7;
+    --box-shadow-color: #3d3d3d;
+    --hover-color: #5eff00;
+    --text1-color: #ffffff;
+    --text2-color: #000000;
+}
+
+body {
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg1-color);
+    padding: 0 14rem;
+
+}
+
+.button {
+    display: flex;
+}
+
+.button a {
+    background: var(--highlight-color);
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 26px var(--box-shadow-color);
+    padding: .7rem;
+    color: var(--text1-color);
+}
+
+.header .logo h1 {
+    color: var(--text1-color);
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 3.5em;
+}
+
+.header .navigation a,
+i {
+    color: var(--text1-color);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header .navigation i {
+    scale: 1.5;
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 2rem;
+}
+
+/*   SECTION 1   */
+.section-1 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg1-color);
+    padding: 1rem 5rem;
+
+}
+
+.section-1-content {
+    padding: 0 10rem;
+    color: var(--text1-color);
+}
+
+.section-1-content h1 {
+    margin-top: -2rem;
+    font-size: 5rem;
+}
+
+.section-1-content p {
+    margin-top: -2rem;
+    width: 60%;
+    text-align: justify;
+}
+
+@media (max-width: 1520px) {
+    header {
+        padding: 0 8rem;
+    }
+
+    .section-1-content {
+        padding: 0 4rem;
+    }
+}
+
+@media (max-width: 1380px) {
+    header {
+        padding: 0 4rem;
+    }
+
+    .section-1-content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1210px) {
+    .navigation a {
+        display: none;
+    }
+
+    .section-1-content {
+        position: absolute;
+        top: 50;
+        left: 25%;
+        padding: 0;
+    }
+
+
+    .section-1-content h1 {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        text-align: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .section-1-content p {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        text-align: justify;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        text-align: center;
+    }
+
+
+    .navigation-line {
+        display: block;
+        margin: 0 0 0 40rem;
+    }
+
+    .navigation i {
+        display: none;
+    }
+
+    .navigation-line .line {
+        width: 20px;
+        height: 2px;
+        background: var(--text1-color);
+        margin: 3px 0;
+    }
+
+}

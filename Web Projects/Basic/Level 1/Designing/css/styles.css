@@ -1,0 +1,224 @@
+* {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: lighter;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+
+}
+
+section {
+    background-color: #0B0F15;
+    min-height: 80vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4%;
+    background-color: #0B0F15;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 740;
+    letter-spacing: 1px;
+}
+
+.navigation a,
+i {
+    margin-left: 5rem;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.bx {
+    transform: translateY(1px);
+    scale: 1.5;
+    cursor: pointer;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content h1 {
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 5rem;
+    letter-spacing: -2px;
+}
+
+.home-content p {
+    position: absolute;
+    top: 30.5rem;
+    left: 15rem;
+    max-width: 45rem;
+    opacity: 80%;
+    font-size: 20px;
+}
+
+.home-content img {
+    position: absolute;
+    top: 18rem;
+    left: 60%;
+    width: 47.6rem;
+    height: 32rem;
+    border-radius: 5rem 0 0 0;
+    opacity: 100%;
+}
+
+.home-content::after {
+    content: '';
+    position: absolute;
+    width: 47.6rem;
+    height: 32rem;
+    top: 18rem;
+    left: 60%;
+    border-radius: 5rem 0 0 0;
+    background: linear-gradient(to top,
+            rgba(0, 0, 20, 0.7),
+            rgba(0, 0, 0, 0));
+    opacity: 80%;
+}
+
+.butt a {
+    position: absolute;
+    top: 40rem;
+    left: 15rem;
+    font-size: 14px;
+    background-color: #003ADB;
+    border-radius: 4rem;
+    padding: .9rem 1.7rem;
+    box-shadow: 0 0 2rem #3d3d3d;
+    transition: .8s ease;
+}
+
+/*   HOME HOVERS   */
+
+.navigation a:hover,
+.navigation i:hover {
+    color: #5daa31;
+    transition: .3s ease;
+}
+
+.butt a:hover {
+    background-color: #5daa31;
+    box-shadow: none;
+    scale: 1.1;
+}
+
+/*  ABOUT   */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.boxes1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.box-1 {
+    padding: 9rem;
+    background: #ffffff;
+}
+
+.box-2 {
+    padding: 9rem;
+    background: blue;
+}
+
+.box-3 {
+    padding: 9rem;
+    background: blue;
+}
+
+.box-4 {
+    padding: 9rem;
+    background: blue;
+}
+
+.boxes2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em;
+    margin-top: 2%;
+}
+
+.short-desc h1,
+h3 {
+    margin-left: 3rem;
+    margin-right: 11.2rem;
+}
+
+.short-desc h1 {
+    font-weight: bold;
+}
+
+.short-desc h3 {
+    font-size: 15px;
+    opacity: 80%;
+}
+
+
+/*  SERVICES   */
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.services-boxes {
+    display: flex;
+    gap: 1em;
+
+}
+
+.sbox-1 {
+    background: #ffffff;
+    padding: 9rem;
+    flex-grow: 1;
+}
+
+.sbox-2 {
+    background: #ffffff;
+    padding: 9rem;
+
+}
+
+.sbox-3 {
+    background: #ffffff;
+    padding: 9rem;
+}

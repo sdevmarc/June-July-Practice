@@ -1,0 +1,39 @@
+* {
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 4);
+    font-weight: lighter;
+    font-family: calibri;
+    color: #ffffff;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 100vh;
+    background: #200F21;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt a {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: #ffffff;
+    border-radius: 20rem;
+    padding: 1rem 2%;
+    text-shadow: none;
+    color: #000000;
+    font-weight: bold;
+}

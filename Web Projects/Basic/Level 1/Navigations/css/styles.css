@@ -1,0 +1,45 @@
+* {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #ffffff;
+    --dark-blue-color: #0C1117;
+}
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--dark-blue-color);
+    width: 100%;
+    padding: 1rem 9%;
+}
+
+nav a {
+    margin-left: 4rem;
+}
+
+.section-1 {
+    background: var(--dark-blue-color);
+    min-height: 100vh;
+}
+
+.section-2 {
+    background: bisque;
+    min-height: 100vh;
+}
